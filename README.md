@@ -25,8 +25,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [hamzekabi.github.io/Recipe-Page](https://hamzekabi.github.io/Recipe-Page/)
-- Live Site URL: [github/index.html](https://github.com/hamze-kabi/recipe-page/blob/fbc53b1d99bde1689b49b17870c7a96a0e776308/index.html)
+- Solution URL: [https://github.com/hamze-kabi/recipe-page](https://github.com/hamze-kabi/recipe-page)
+- Live Site URL: [https://hamze-kabi.github.io/recipe-page/](https://hamze-kabi.github.io/recipe-page/)
 
 ## My process
 
