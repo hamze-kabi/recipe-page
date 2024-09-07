@@ -21,12 +21,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![Desktop screenshot](/screenshots/recipe-page-desktop-screenshot.png)
 
-[mobile screenshot](https://github.com/HamzeKabi/Recipe-Page/blob/5b0808ae05596b9b5114aaa61ea321d3cc919d64/screenshots/recipe-page-mobile-screenshot.png)
+[mobile screenshot](/screenshots/recipe-page-mobile-screenshot.png)
 
 ### Links
 
 - Solution URL: [hamzekabi.github.io/Recipe-Page](https://hamzekabi.github.io/Recipe-Page/)
-- Live Site URL: [github/index.html](https://github.com/HamzeKabi/Recipe-Page/blob/fbc53b1d99bde1689b49b17870c7a96a0e776308/index.html)
+- Live Site URL: [github/index.html](https://github.com/hamze-kabi/recipe-page/blob/fbc53b1d99bde1689b49b17870c7a96a0e776308/index.html)
 
 ## My process
 
