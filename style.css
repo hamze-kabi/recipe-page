@@ -1,0 +1,168 @@
+@charset "UTF-8";
+:root {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "young-serif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "outfit";
+  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 46rem;
+  max-width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+main > *:not(.image-omelette) {
+  width: 86.7%;
+}
+main .overview > h1, main .ingredients > h2, main .instructions > h2, main .nutrition > h2 {
+  font-family: young-serif;
+}
+main .image-omelette {
+  width: 40rem;
+  max-width: 100vw;
+  margin: 0 0 5% 0;
+}
+main .overview {
+  margin-top: -2rem;
+}
+main .overview h1 {
+  font-size: 2.188rem;
+}
+main .overview p {
+  color: hsl(24, 5%, 18%);
+  font-family: outfit;
+}
+main .preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  font-family: outfit;
+  border-radius: 1.1rem;
+  margin: 1rem 0;
+}
+main .preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 1.65rem;
+}
+main .preparation-time ul {
+  color: hsl(24, 5%, 18%);
+}
+main .preparation-time ul li {
+  padding: 0.5rem 0.5rem 0.5rem 1.4rem;
+}
+main .preparation-time ul ::marker {
+  content: "•";
+}
+main .ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.7rem;
+}
+main .ingredients ul {
+  color: hsl(24, 5%, 18%);
+  font-family: outfit;
+  padding: 0;
+  list-style-type: none;
+}
+main .ingredients ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+main .ingredients ul li:before {
+  content: "•";
+  font-size: 1.2rem;
+  margin-right: 1.8rem;
+}
+main .instructions h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.7rem;
+}
+main .instructions ol {
+  color: hsl(24, 5%, 18%);
+  font-family: outfit;
+  width: 100%;
+  margin-inline-start: -16px;
+}
+main .instructions ol ::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+main .instructions ol li {
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+main .nutrition h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.7rem;
+}
+main .nutrition p {
+  color: hsl(24, 5%, 18%);
+  font-family: outfit;
+  width: 90%;
+}
+main .nutrition table {
+  color: hsl(24, 5%, 18%);
+  font-family: outfit;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+main .nutrition table tr:not(:last-child) {
+  border-bottom: inset;
+}
+main .nutrition table tr {
+  color: hsl(24, 5%, 18%);
+}
+main .nutrition table tr th {
+  padding-left: 2rem;
+  font-weight: lighter;
+}
+main .nutrition table tr td {
+  font-weight: bold;
+  padding-left: 4.5rem;
+  color: hsl(14, 45%, 36%);
+}
+main .nutrition table tr th, main .nutrition table tr td {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 376px) {
+  main {
+    border-radius: 1rem;
+  }
+  .image-omelette {
+    margin: 5% !important;
+    border-radius: 1rem;
+  }
+  .overview {
+    width: 90%;
+  }
+  .main-heading {
+    font-family: young-serif;
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
